@@ -23,13 +23,13 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: loranger.debian-collectd }
+         - { role: cowops.debian-collectd }
 
 Tasks
 -----
 
   - Install [collectd](http://collectd.org/)
-  
+
 
 License
 -------
